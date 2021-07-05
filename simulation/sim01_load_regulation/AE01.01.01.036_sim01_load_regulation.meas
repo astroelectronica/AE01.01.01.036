@@ -1,0 +1,6 @@
+*load regulation
+.meas Iload_limit find I(I1) when V(/vocm)=V(/trp)
+.meas Vfbi find V(/current_feedback) when I(I1)=Iload_limit
+.meas Vvocm find V(/vocm) when I(I1)=Iload_limit
+.meas Vtrp find V(/trp) when I(I1)=Iload_limit
+.meas Vsense find V(/vin,/vout) when I(I1)=Iload_limit

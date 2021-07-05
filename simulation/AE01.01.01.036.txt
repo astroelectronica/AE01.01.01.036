@@ -1,0 +1,9 @@
+Vsense=Rsense*Iload
+Vsense=0.235R*1A
+Vsense=235mV
+Vvocm=Vsense*G=Iload*Rsense*10
+Vvocm=1A*0.235R*10=2.35V
+Vvocm=Vtrp; Rfb=9.76K
+Rref=Vtrp/((5V-Vtrp)/Rfb)
+Rref=2.35V/((5V-2.35V)/9.76K)
+Rref=8.65K (8.66K 1%)

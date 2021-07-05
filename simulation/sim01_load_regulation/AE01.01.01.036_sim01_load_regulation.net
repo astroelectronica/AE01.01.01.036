@@ -1,0 +1,7 @@
+*load regulation
+.include ../AE01.01.01.036.cir
+.param VSUPPLY=20
+.param ILOAD=2
+.dc I1 0 {Iload} 0.1
+.backanno
+.op
